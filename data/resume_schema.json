@@ -1,0 +1,64 @@
+{
+  "candidate_id": "CAND_001",
+  "personal_information": {
+    "name": "Meghana Hegde",
+    "email": "meghana.hegde@email.com",
+    "phone": "+1-312-555-0199",
+    "location": "Urbana, Illinois"
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "proficiency": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "category": "Database",
+      "years_experience": 2,
+      "proficiency": "Intermediate"
+    },
+    {
+      "name": "Machine Learning",
+      "category": "AI",
+      "years_experience": 1,
+      "proficiency": "Intermediate"
+    }
+  ],
+    "experience": [
+    {
+      "company": "TechNova Solutions",
+      "role": "Data Analyst",
+      "start_date": "2022",
+      "end_date": "2024",
+      "technologies": ["Python", "SQL", "Pandas"],
+      "responsibilities": [
+        "Analyzed business data to generate insights",
+        "Built data dashboards for reporting",
+        "Worked with data pipelines and cleaning processes"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "institution": "University of California",
+      "year_of_completion": "2021"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Data Analytics Certificate",
+      "year": "2022"
+    }
+  ],
+  "projects": [
+    {
+      "project_name": "Customer Churn Prediction",
+      "technologies": ["Python", "Scikit-learn", "Pandas"],
+      "description": "Built a machine learning model to predict customer churn for telecom companies."
+    }
+  ]
+}
