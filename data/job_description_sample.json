@@ -1,0 +1,42 @@
+{
+  "job_id": "JOB_101",
+  "company": "Tech Solutions Inc.",
+  "job_title": "Backend Developer",
+  "location": "Remote",
+  "employment_type": "Full-Time",
+  "experience_required": "2-4 years",
+
+  "education_required": {
+    "degree": "Bachelor's Degree",
+    "field": "Computer Science"
+  },
+
+  "required_skills": [
+    {
+      "name": "Python",
+      "category": "Programming",
+      "required_level": "Advanced"
+    },
+    {
+      "name": "Django",
+      "category": "Framework",
+      "required_level": "Intermediate"
+    },
+    {
+      "name": "SQL",
+      "category": "Database",
+      "required_level": "Intermediate"
+    }
+  ],
+
+  "responsibilities": [
+    "Develop backend APIs",
+    "Work with databases",
+    "Collaborate with frontend team"
+  ],
+
+  "preferred_qualifications": [
+    "Experience with cloud platforms",
+    "Knowledge of microservices architecture"
+  ]
+}
