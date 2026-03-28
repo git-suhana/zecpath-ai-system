@@ -1,2 +1,2 @@
-print("Zecpath AI System Initialized")
+print("Zecpath AI System Initialized.")
 
