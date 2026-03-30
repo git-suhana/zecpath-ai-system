@@ -46,3 +46,22 @@ Convert employer job descriptions into structured AI-readable objects.
 
 
  to run: `process_big_pdf_jds.py`
+
+
+ ## Day 8- Resume Segmentation System
+ This project implements a Resume Parsing and Section Segmentation system that processes resumes in PDF and DOCX formats and classifies content into structured sections.
+
+## 🚀 Features
+- Extracts text from:
+  - PDF resumes (PyMuPDF)
+  - DOCX resumes (python-docx)
+- OCR fallback for scanned PDFs (Tesseract)
+- Cleans and preprocesses text
+- Segments resume into sections:
+  - Skills
+  - Experience
+  - Education
+  - Projects
+  - Certifications
+- Saves output as structured JSON
+
