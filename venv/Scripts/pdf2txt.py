@@ -1,4 +1,4 @@
-#!C:\Users\HP\Desktop\zecpath-ai-system\venv\Scripts\python.exe
+#!D:\Suhana AI\zecpath-ai-system\venv\Scripts\python.exe
 """A command line tool for extracting text and images from PDF and
 output it to plain text, html, xml or tags.
 """
