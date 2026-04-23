@@ -67,14 +67,14 @@ Convert employer job descriptions into structured AI-readable objects.
 
 ### Day 9 – Skill Extraction Engine
 
-Objective
+### Objective
 The objective of this task was to build a system capable of extracting relevant skills from resumes and structuring them for further use in job matching and candidate evaluation.
 
-Implementation
+### Implementation
 A Skill Extraction Engine was developed to process unstructured resume text and identify both technical and non-technical skills. The system uses rule-based keyword matching along with a predefined skill dictionary to detect skills across multiple domains. It also includes synonym normalization to handle variations in naming (e.g., JS → JavaScript, AI → Artificial Intelligence) and expands grouped skill stacks such as MERN into individual technologies.
 Each extracted skill is assigned a confidence score based on its frequency of occurrence in the resume, ensuring more prominent skills are given higher importance.
 
-Key Features:
+### Key Features:
 Extraction of technical and non-technical skills
 Skill dictionary-based detection
 Synonym normalization for consistency
@@ -82,18 +82,18 @@ Skill stack expansion (e.g., MERN)
 Confidence scoring based on frequency
 Structured skill output generation
 
-Sample Output
+### Sample Output
 
 [
   {"skill": "python", "confidence": 0.9},
   {"skill": "sql", "confidence": 0.75}
 ]
 
-Challenges
+### Challenges
 
-Variations in skill naming conventions
-Missing or unclear skill sections in resumes
-Different resume formats and structures
+Variations in skill naming conventions.
+Missing or unclear skill sections in resumes.
+Different resume formats and structures.
 
 ## Day 10- Experience Parser
 
@@ -104,25 +104,25 @@ It performs:
 - Extraction of role, company, and duration
 - Filtering of irrelevant content (education, bullet points, contact info)
 
-File:
+### File:
 parsers/experience_parser.py
 
 ###  Day 11 – Education & Certification Parsing
 
 Extracts education details and certifications from resumes and evaluates their relevance to a job role.
 
-Features
+### Features
 Extract degree, field, year, and institution
 Identify and categorize certifications
 Compute education relevance score (0–1)
-Main Function
+### Main Function
 build_academic_profile(text, job_field)
-Sample Output
+### Sample Output
 {
   "education": [{"degree": "bachelor", "field": "computer science", "year": "2024"}],
   "institution": "University of Calicut, Kerala",
   "certifications": [{"name": "power bi", "category": "data"}],
   "education_relevance": 1.0
 }
-File:
+### File:
 parsers/education_parser.py
