@@ -65,3 +65,15 @@ Convert employer job descriptions into structured AI-readable objects.
   - Certifications
 - Saves output as structured JSON
 
+## Day 10- Experience Parser
+
+The experience parser extracts structured experience data from resume text.
+
+It performs:
+- Identification of experience sections using date patterns
+- Extraction of role, company, and duration
+- Filtering of irrelevant content (education, bullet points, contact info)
+
+File:
+parsers/experience_parser.py
+
