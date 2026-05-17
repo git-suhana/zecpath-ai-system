@@ -2,9 +2,9 @@
     "job_role": "compliance officer",
     "required_skills": [
         "audit",
-        "compliance",
         "documentation",
-        "securities and exchange board of india"
+        "securities and exchange board of india",
+        "compliance"
     ],
     "experience_required": "Not specified",
     "education_required": "Not specified"

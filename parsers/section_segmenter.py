@@ -49,7 +49,7 @@ def detect_sections(text):
 
         line_lower = line.lower()
 
-        # ✅ STRONG heading detection
+        #  STRONG heading detection
         for section, keywords in SECTION_KEYWORDS.items():
             if any(line_lower == kw or line_lower.startswith(kw) for kw in keywords):
                 current_section = section

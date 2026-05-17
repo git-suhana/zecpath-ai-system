@@ -1,15 +1,15 @@
 {
     "job_role": "compliance executive",
     "required_skills": [
-        "audit",
-        "ms excel",
-        "regulatory knowledge",
-        "securities and exchange board of india",
         "attention to detail",
+        "securities and exchange board of india",
         "compliance",
+        "audit",
         "documentation",
         "policy drafting",
-        "reserve bank of india"
+        "reserve bank of india",
+        "ms excel",
+        "regulatory knowledge"
     ],
     "experience_required": "2 years",
     "education_required": "Bachelor's Degree"

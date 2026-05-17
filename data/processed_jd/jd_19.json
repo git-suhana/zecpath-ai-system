@@ -1,11 +1,11 @@
 {
     "job_role": "compliance officer",
     "required_skills": [
-        "audit",
         "compliance",
+        "audit",
         "documentation",
-        "know your customer",
         "anti-money laundering",
+        "know your customer",
         "reporting"
     ],
     "experience_required": "8 years",

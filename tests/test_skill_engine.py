@@ -1,11 +1,12 @@
 from parsers.skill_extraction_engine import skill_extraction_pipeline
-from parsers.resume_parser import parse_resume
+from parsers.pdf_reader import extract_text_from_pdf
 
-resume_path = "data/resumes/Pranav.pdf"
+pdf_path = "data/resumes/Resume_Suhana.pdf"
 
-text = parse_resume(resume_path)
+text = extract_text_from_pdf(pdf_path)
 
-skills = skill_extraction_pipeline(text)
+result = skill_extraction_pipeline(text)
 
-for skill in skills:
-    print(skill)
+print("\n===== SKILL EXTRACTION TEST =====")
+
+print(result)

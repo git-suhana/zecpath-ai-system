@@ -2,9 +2,9 @@
     "job_role": "Not specified",
     "required_skills": [
         "attention to detail",
-        "compliance",
         "documentation",
-        "policy drafting"
+        "policy drafting",
+        "compliance"
     ],
     "experience_required": "Not specified",
     "education_required": "Not specified"

@@ -2,9 +2,9 @@
     "job_role": "Not specified",
     "required_skills": [
         "audit",
+        "regulatory knowledge",
         "reporting",
-        "compliance",
-        "regulatory knowledge"
+        "compliance"
     ],
     "experience_required": "6 years",
     "education_required": "Bachelor's Degree"

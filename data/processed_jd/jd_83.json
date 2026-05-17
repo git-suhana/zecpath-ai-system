@@ -1,11 +1,11 @@
 {
     "job_role": "compliance officer",
     "required_skills": [
-        "risk assessment",
-        "regulatory knowledge",
         "compliance",
         "documentation",
-        "reserve bank of india"
+        "risk assessment",
+        "reserve bank of india",
+        "regulatory knowledge"
     ],
     "experience_required": "Not specified",
     "education_required": "Master's Degree"

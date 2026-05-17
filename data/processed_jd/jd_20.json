@@ -1,14 +1,14 @@
 {
     "job_role": "compliance officer",
     "required_skills": [
-        "audit",
-        "risk assessment",
-        "regulatory knowledge",
         "compliance",
+        "audit",
         "documentation",
-        "know your customer",
         "anti-money laundering",
-        "reporting"
+        "know your customer",
+        "reporting",
+        "risk assessment",
+        "regulatory knowledge"
     ],
     "experience_required": "10 years",
     "education_required": "Bachelor's Degree"
